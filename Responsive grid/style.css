@@ -1,0 +1,86 @@
+@keyframes fade {
+    from {
+        transform: translate(-1000px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+@keyframes text-effect {
+    0% {
+        background-color: red;
+        color: white;
+    }
+    25% {
+        background-color: yellow;
+        color: black;
+    }
+    50% {
+        background-color: greenyellow;
+        color: black;
+    }
+    100% {
+        background-color: cornflowerblue;
+        color: white;
+    }
+}
+
+body {
+    background-image: url("https://marketplace.canva.com/EAE6K5Ye1CQ/1/0/1600w/canva-mauve-peach-abstract-wavy-lines-desktop-wallpaper-RAa2M3ydByE.jpg");
+    backdrop-filter: blur(2px);
+}
+
+code:hover {
+    animation-name: text-effect;
+    animation-duration: 2s;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+code {
+    padding: 10px;
+    font-size: 25px;
+}
+
+body {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+div > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+}
+
+
+div > img:hover {
+    transform: translate(10px, -10px);
+    transition: 0.5s;
+    animation-name: give-border;
+    animation-duration: 0.5s;
+}
+
+.bananna {
+    grid-column: 2 / span 3;
+}
+
+#container > div {
+    background-color:black;
+    width: 160px;
+    height: 160px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    gap: 50px;
+}
+

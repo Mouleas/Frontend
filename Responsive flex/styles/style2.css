@@ -1,0 +1,51 @@
+
+
+div > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+}
+
+div > img:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:hover {
+    color: crimson;
+}
+
+code {
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+#container > div {
+    margin: 10px;
+    background-color:black;
+    width: 160px;
+    height: 160px;
+}
+
+
+

@@ -1,0 +1,49 @@
+div > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+}
+
+div > img:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+code {
+    font-size: 20px;
+}
+
+a:hover {
+    color: crimson;
+}
+
+#container > div {
+    margin: 10px;
+    background-color:black;
+    width: 160px;
+    height: 160px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container div:first-child {
+    flex-grow: 15;
+}
+
+
