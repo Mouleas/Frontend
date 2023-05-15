@@ -1,0 +1,37 @@
+@keyframes carousal {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.mainframe {
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin-left: 100px;
+    background-color: antiquewhite;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+    animation: carousal 3s linear infinite;
+}
+.mainframe:hover .slider{
+    animation-play-state: paused;
+}
+
+
+.slide {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+.slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
