@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @keyframes fade {
     from {
         transform: translate(-1000px);
@@ -30,11 +32,16 @@
 body {
     background-image: url("https://marketplace.canva.com/EAE6K5Ye1CQ/1/0/1600w/canva-mauve-peach-abstract-wavy-lines-desktop-wallpaper-RAa2M3ydByE.jpg");
     backdrop-filter: blur(2px);
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    color: crimson;
 }
 
 code:hover {
     animation-name: text-effect;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 nav {
@@ -72,7 +79,7 @@ div > img:hover {
 }
 
 #container > div {
-    background-color:black;
+    background-color:rgb(230, 172, 153);
     width: 160px;
     height: 160px;
 }
