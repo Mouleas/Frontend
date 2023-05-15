@@ -63,19 +63,14 @@ div > img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-
 
 div > img:hover {
     transform: translate(10px, -10px);
     transition: 0.5s;
     animation-name: give-border;
     animation-duration: 0.5s;
-}
-
-.bananna {
-    grid-column: 2 / span 3;
 }
 
 #container > div {

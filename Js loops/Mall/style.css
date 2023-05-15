@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://cdn.shopify.com/s/files/1/0285/1316/products/w0263_1s_Nautical-Waves-Wallpaper-for-Walls-Waves-of-Chic_Repeating-Pattern-Sample-1.jpg?v=1604091534");
+}
+.card {
+    border-radius: 10px;
+    margin-top: 10%;
+    padding: 50px;
+    height: auto;
+    width: fit-content;
+    background-color:  whitesmoke;
+}
+
+@keyframes text {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    padding: 3px;
+    background-color: yellow;
+    animation: text 2s ease-in-out;
+}
